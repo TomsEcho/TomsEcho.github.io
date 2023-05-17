@@ -31,13 +31,15 @@ document.addEventListener('DOMContentLoaded', function() {
             typewriterElement.style.borderRight = 'none';
           }, 1000);
           setTimeout(function() {
-            wrapperElement.style.display = "flex";
+            /*
+             wrapperElement.style.display = "flex";
             welcomeBodyElement.style.height = '50px'; 
             welcomeBodyElement.style.animationDuration = "45s";
             navigationElement.classList.remove('hidden');
             welcomeTextElement.classList.add('hidden');
             welcomeBodyElement.style.alignItems = 'flex-start';
             welcomeTitleElement.classList.remove('hidden');
+             */
           }, 500);
         }
       } else {
